@@ -1,0 +1,40 @@
+mat-grid-tile{
+  border: 1px solid lightblue;
+  border-radius: 5px;
+}
+.image-container{
+  position: relative;
+  height: 280px;
+}
+.home-page-product-image{
+  max-width: 90%;
+  max-height: 90%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.custom-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  flex-grow: 1; /* Expand the search bar to take available space */
+}
+
+.custom-text {
+  text-align: center; /* Center-align the product heading */
+}
+
+.product-description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px; /* Adjust the width as per your design */
+}
+

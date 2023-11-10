@@ -1,0 +1,63 @@
+/* your-login-component.component.css */
+
+/* Style the mat-toolbar */
+mat-toolbar {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+  }
+  
+  /* Center the text and icon within mat-toolbar */
+  .m-auto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style the container */
+  .container-sm {
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 500px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style the card */
+  .card {
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  /* Style the mat-form-field elements */
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Style the form inputs */
+  input.mat-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the submit button on hover */
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  

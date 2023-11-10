@@ -1,0 +1,25 @@
+/* your-component.component.css */
+
+/* Style the product image container */
+.product-image-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the product image */
+  .product-image {
+    max-width: 100%;
+    max-height: 300px; /* Adjust the height as needed */
+    object-fit: contain; /* Preserve aspect ratio while fitting within the container */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px;
+    transition: transform 0.2s ease; /* Add a smooth hover effect */
+    cursor: pointer;
+  }
+  
+  /* Add a hover effect for the product image */
+  .product-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+  }
+  
